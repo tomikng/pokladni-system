@@ -1,11 +1,19 @@
-# Pokladní software pro maloobchody
+# Pokladní Software
 
 Tento projekt je user-friendly pokladní software zaměřený na pokladní prodej. Usnadňuje práci pokladním a poskytuje vedoucím lepší dohled nad jejich činností.
+
+## Původ projektu
+Tento projekt byl vytvořen jako bakalářská práce na Matematicko-fyzikální fakultě Univerzity Karlovy. 
+
+## Odkazy
+- [Odkaz na bakalářskou práci](https://github.com/user-attachments/files/17714413/BPTX.2021.Report.pdf)
+- Projekt byl přesunut z univerzitního GitLabu do tohoto GitHub repozitáře
 
 ## Požadavky
 
 - Python 3.8+
 - Node.js 14+
+
 - npm 6+ nebo yarn 1.22+
 - PostgreSQL 12+
 
