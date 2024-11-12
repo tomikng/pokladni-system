@@ -6,7 +6,8 @@ Tento projekt je user-friendly pokladní software zaměřený na pokladní prode
 Tento projekt byl vytvořen jako bakalářská práce na Matematicko-fyzikální fakultě Univerzity Karlovy. 
 
 ## Odkazy
-- [Odkaz na bakalářskou práci](https://github.com/user-attachments/files/17714413/BPTX.2021.Report.pdf)
+- [Odkaz na bakalářskou práci](https://dspace.cuni.cz/handle/20.500.11956/193057)
+- [Odkaz na text práce](https://github.com/user-attachments/files/17714413/BPTX.2021.Report.pdf)
 - Projekt byl přesunut z univerzitního GitLabu do tohoto GitHub repozitáře
 
 ## Požadavky
