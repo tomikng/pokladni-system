@@ -1,0 +1,53 @@
+services:
+  web:
+    build: ./backend
+    # command: 'sh -c "python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"'
+
+    command: >
+      sh -c "python manage.py makemigrations authentication product_catalog invoices warehouse sales settings stats daily_closure && 
+            python manage.py migrate &&
+            python manage.py collectstatic --no-input &&
+            gunicorn --bind 0.0.0.0:8000 backend.wsgi:application"
+    volumes:
+      - ./backend:/code
+      - static_volume:/home/app/web/static
+      - media_volume:/home/app/web/media
+    expose:
+      - 8000
+    depends_on:
+      - db
+    env_file:
+      - ./backend/.env
+
+  next:
+    build: ./next-ui
+    env_file:
+      - ./next-ui/.env
+    ports:
+      - "3000:3000"
+    depends_on:
+      - web
+
+  db:
+    image: postgres:15-alpine
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    ports:
+      - "5431:5432"
+    env_file:
+      - .env
+
+  nginx:
+    build: ./nginx
+    ports:
+      - 1337:80
+    volumes:
+      - static_volume:/home/app/web/static
+      - media_volume:/home/app/web/media
+    depends_on:
+      - web
+  
+volumes:
+  postgres_data:
+  static_volume:
+  media_volume:

@@ -1,0 +1,52 @@
+// eslint-disable-next-line import/no-anonymous-default-export
+export default {
+  login: {
+    loginTitle: "Login",
+    signInCredentials: "Please sign in with your credentials",
+    requiredUsername: "Please enter your username",
+    requiredPassword: "Please enter your password",
+    usernamePlaceholder: "Username",
+    passwordPlaceholder: "Password",
+    loginButton: "Login",
+  },
+  layout: {
+    logOut: "Log out",
+    homepage: "Homepage",
+    home: "Home",
+    cashRegister: "Cash Register",
+    transactionHistory: "Transaction History",
+    inventory: "Inventory",
+    import: "Import",
+    catalog: "Product Catalog",
+    list: "List",
+    add: "Add",
+    history: "History",
+    suppliers: "Suppliers",
+    administration: "Administration",
+    statistics: "Statistics",
+    sales: "Sales",
+    endOfDayReport: "End-of-Day Report",
+    userManagement: "User Management",
+    settings: "Settings",
+  },
+  catalogAdd: {
+    catalogTitle: "Add Item",
+    addProduct: "Add Product",
+    addLaterProduct: "Add Product from Add Later List",
+    addCategory: "Add Category",
+  },
+  categoryForm: {
+    title: "Create Category",
+    categoryName: "Category Name",
+    parentCategory: "Parent Category",
+    createButton: "Create Category",
+    messages: {
+      success: "Category created successfully",
+      error: "Failed to create category",
+      nameRequired: "Please enter the category name",
+    },
+  },
+  welcome: {
+    welcome_message: "Welcome to Our Application",
+  },
+};

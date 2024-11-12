@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="997055d3-42fe-499b-8614-c8361bf977f4" name="Changes" comment="fix: tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/common/pagination.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/common/pagination.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/daily_closure/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/daily_closure/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/daily_closure/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/daily_closure/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/daily_closure/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/daily_closure/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/daily_closure/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/daily_closure/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/invoices/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/invoices/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/invoices/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/invoices/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/invoices/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/invoices/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/product_catalog/choices.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/product_catalog/choices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/product_catalog/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/product_catalog/filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/product_catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/product_catalog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/product_catalog/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/product_catalog/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/product_catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/product_catalog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/sales/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/sales/filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/sales/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/sales/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/sales/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/sales/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/sales/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/sales/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/warehouse/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/warehouse/filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/warehouse/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/warehouse/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/warehouse/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/warehouse/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/warehouse/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/warehouse/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/permissions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/validators/can_modify_or_delete.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/validators/can_modify_or_delete.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/validators/check_vat.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/validators/check_vat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/validators/validate_products.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/validators/validate_products.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../next-ui/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../next-ui/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="feat/printer" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2gswmp56va6T2LA5WKJihVOdbwH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.backend.executor": "Run",
+    "Django tests.Sales Test.executor": "Run",
+    "Django tests.Test: api.daily_closure.tests.DailySummaryViewSetTests.executor": "Run",
+    "Django tests.Test: api.invoices.tests.InvoiceViewSetTests.executor": "Run",
+    "Django tests.Test: api.product_catalog.tests.CatalogViewSetTests.executor": "Run",
+    "Django tests.Test: api.product_catalog.tests.CatalogViewSetTests.test_import_catalog_with_inactive_product.executor": "Run",
+    "Django tests.Test: api.product_catalog.tests.CategoryModelTests (1).executor": "Run",
+    "Django tests.Test: api.product_catalog.tests.CategoryModelTests.executor": "Run",
+    "Django tests.Test: api.product_catalog.tests.executor": "Run",
+    "Django tests.Test: api.sales.tests.SaleViewSetTests.executor": "Run",
+    "Django tests.Test: api.sales.tests.SaleViewSetTests.test_create_sale_with_admin_user.executor": "Run",
+    "Django tests.Test: api.sales.tests.SaleViewSetTests.test_create_sale_with_expired_voucher.executor": "Run",
+    "Django tests.Test: api.sales.tests.SaleViewSetTests.test_create_sale_with_unauthenticated_user.executor": "Run",
+    "Django tests.Test: api.sales.tests.SaleViewSetTests.test_create_sale_with_valid_data.executor": "Run",
+    "Django tests.Test: api.sales.tests.VoucherViewSetTests.executor": "Run",
+    "Django tests.Test: api.sales.tests.executor": "Run",
+    "Django tests.Test: api.warehouse.tests.SupplierTests (1).executor": "Run",
+    "Django tests.Test: api.warehouse.tests.SupplierTests.executor": "Run",
+    "Django tests.Test: api.warehouse.tests.executor": "Run",
+    "Django tests.Test: authentication.tests.UserRegistrationTestCase (1).executor": "Run",
+    "Django tests.Test: authentication.tests.UserRegistrationTestCase.executor": "Run",
+    "Django tests.Test: settings.tests.BusinessSettingsViewSetTests.executor": "Run",
+    "Django tests.Test: settings.tests.executor": "Run",
+    "Django tests.Test: stats.tests.SaleStatisticsViewTests.executor": "Run",
+    "Django tests.Unnamed.executor": "Run",
+    "Python.0001_initial.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/tomasnguyen/Nguyen_Hai_Hung_2022/app/backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.obiscr.chatgpt.settings.GPT3-3.5-Turbo",
+    "ts.external.directory.path": "/Users/tomasnguyen/Applications/PyCharm Professional Edition.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django tests.Unnamed">
+    <configuration name="Sales Test" type="DjangoTestsConfigurationType">
+      <module name="backend" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../.venv/bin/python" />
+      <option name="SDK_NAME" value="Python 3.9 (.venv)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="api.sales" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: api.invoices.tests.InvoiceViewSetTests" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="backend" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="api.invoices.tests" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: api.sales.tests.SaleViewSetTests" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="backend" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="api.sales.tests.SaleViewSetTests" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: authentication.tests.UserRegistrationTestCase (1)" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="backend" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="authentication.tests.UserRegistrationTestCase" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: authentication.tests.UserRegistrationTestCase" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="backend" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="authentication.tests" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: stats.tests.SaleStatisticsViewTests" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="backend" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="stats.tests.SaleStatisticsViewTests" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="DjangoTestsConfigurationType" nameIsGenerated="true">
+      <module name="backend" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../.venv/bin/python" />
+      <option name="SDK_NAME" value="Python 3.9 (.venv)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="backend" type="Python.DjangoServer" factoryName="Django server">
+      <module name="backend" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="backend.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django Server.backend" />
+      <item itemvalue="Django tests.Sales Test" />
+      <item itemvalue="Django tests.Unnamed" />
+      <item itemvalue="Django tests.Test: api.sales.tests.SaleViewSetTests" />
+      <item itemvalue="Django tests.Test: authentication.tests.UserRegistrationTestCase (1)" />
+      <item itemvalue="Django tests.Test: api.invoices.tests.InvoiceViewSetTests" />
+      <item itemvalue="Django tests.Test: authentication.tests.UserRegistrationTestCase" />
+      <item itemvalue="Django tests.Test: stats.tests.SaleStatisticsViewTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: authentication.tests.UserRegistrationTestCase (1)" />
+        <item itemvalue="Django tests.Test: api.sales.tests.SaleViewSetTests" />
+        <item itemvalue="Django tests.Test: stats.tests.SaleStatisticsViewTests" />
+        <item itemvalue="Django tests.Test: api.invoices.tests.InvoiceViewSetTests" />
+        <item itemvalue="Django tests.Test: authentication.tests.UserRegistrationTestCase" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="997055d3-42fe-499b-8614-c8361bf977f4" name="Changes" comment="" />
+      <created>1716499756134</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716499756134</updated>
+      <workItem from="1716499757210" duration="1031000" />
+      <workItem from="1716532410270" duration="15000" />
+      <workItem from="1716568836195" duration="308000" />
+      <workItem from="1716569149816" duration="175000" />
+      <workItem from="1716569331977" duration="3358000" />
+      <workItem from="1716812556202" duration="6460000" />
+      <workItem from="1717339359834" duration="11239000" />
+      <workItem from="1717409917650" duration="32821000" />
+      <workItem from="1718518381923" duration="16676000" />
+      <workItem from="1718720294594" duration="16048000" />
+      <workItem from="1719058882015" duration="8421000" />
+      <workItem from="1719150450957" duration="13601000" />
+      <workItem from="1719263839340" duration="22167000" />
+      <workItem from="1719382892512" duration="8661000" />
+      <workItem from="1719468713347" duration="5343000" />
+      <workItem from="1719554611916" duration="39355000" />
+      <workItem from="1719638449138" duration="26746000" />
+      <workItem from="1719683624111" duration="13542000" />
+      <workItem from="1720433301596" duration="39940000" />
+      <workItem from="1720596275083" duration="19936000" />
+      <workItem from="1720715039725" duration="7389000" />
+      <workItem from="1720815528874" duration="1024000" />
+      <workItem from="1720855841963" duration="7927000" />
+      <workItem from="1721027897946" duration="12170000" />
+    </task>
+    <task id="LOCAL-00008" summary="fix: deploy">
+      <option name="closed" value="true" />
+      <created>1717447097485</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717447097485</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: add average price for products">
+      <option name="closed" value="true" />
+      <created>1718520776122</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718520776122</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix: deploy">
+      <option name="closed" value="true" />
+      <created>1718520945822</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718520945822</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix: saving import_price">
+      <option name="closed" value="true" />
+      <created>1718526896036</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718526896036</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: add pagination for sale">
+      <option name="closed" value="true" />
+      <created>1718527410654</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718527410654</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix: deploy">
+      <option name="closed" value="true" />
+      <created>1718546173518</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1718546173518</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix: move Voucher to Product Catalog, change decimal values for avrg price">
+      <option name="closed" value="true" />
+      <created>1719302439826</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719302439826</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix: deploy">
+      <option name="closed" value="true" />
+      <created>1719302703247</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719302703247</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix: cors">
+      <option name="closed" value="true" />
+      <created>1719304315043</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1719304315043</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: add tests">
+      <option name="closed" value="true" />
+      <created>1719329767596</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1719329767596</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fix: deploy">
+      <option name="closed" value="true" />
+      <created>1719351467308</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1719351467308</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: add more tests">
+      <option name="closed" value="true" />
+      <created>1719351957694</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1719351957694</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fix: deploy">
+      <option name="closed" value="true" />
+      <created>1719382963646</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1719382963646</updated>
+    </task>
+    <task id="LOCAL-00021" summary="save progress">
+      <option name="closed" value="true" />
+      <created>1719386659724</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1719386659724</updated>
+    </task>
+    <task id="LOCAL-00022" summary="feat: add archive for products">
+      <option name="closed" value="true" />
+      <created>1719521503734</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1719521503734</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fix: flake8">
+      <option name="closed" value="true" />
+      <created>1719521649997</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1719521649997</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat: add export import for vouchers">
+      <option name="closed" value="true" />
+      <created>1719555892735</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1719555892735</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feat: add basic support for setting">
+      <option name="closed" value="true" />
+      <created>1719559134743</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1719559134743</updated>
+    </task>
+    <task id="LOCAL-00026" summary="fix: deploy">
+      <option name="closed" value="true" />
+      <created>1719559293228</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1719559293228</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fix: deploy">
+      <option name="closed" value="true" />
+      <created>1719559711803</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1719559711803</updated>
+    </task>
+    <task id="LOCAL-00028" summary="feat: add settings">
+      <option name="closed" value="true" />
+      <created>1719576450644</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1719576450644</updated>
+    </task>
+    <task id="LOCAL-00029" summary="chore: change lifetime of tokens">
+      <option name="closed" value="true" />
+      <created>1719578153581</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1719578153581</updated>
+    </task>
+    <task id="LOCAL-00030" summary="chore: change to statichmethod">
+      <option name="closed" value="true" />
+      <created>1719589827633</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1719589827633</updated>
+    </task>
+    <task id="LOCAL-00031" summary="fix: permissions in tests">
+      <option name="closed" value="true" />
+      <created>1719591559230</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1719591559230</updated>
+    </task>
+    <task id="LOCAL-00032" summary="feat: implement tip">
+      <option name="closed" value="true" />
+      <created>1719614480825</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1719614480825</updated>
+    </task>
+    <task id="LOCAL-00033" summary="fix: deploy">
+      <option name="closed" value="true" />
+      <created>1719614558797</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1719614558797</updated>
+    </task>
+    <task id="LOCAL-00034" summary="fix: deploy">
+      <option name="closed" value="true" />
+      <created>1719614671124</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1719614671124</updated>
+    </task>
+    <task id="LOCAL-00035" summary="feat: add endpoint for latest product stockentry">
+      <option name="closed" value="true" />
+      <created>1719648715719</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1719648715719</updated>
+    </task>
+    <task id="LOCAL-00036" summary="feat: add tests for latest stockjentry">
+      <option name="closed" value="true" />
+      <created>1719650198859</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1719650198859</updated>
+    </task>
+    <task id="LOCAL-00037" summary="fix deploy">
+      <option name="closed" value="true" />
+      <created>1719650214445</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1719650214445</updated>
+    </task>
+    <task id="LOCAL-00038" summary="fix deploy">
+      <option name="closed" value="true" />
+      <created>1719683814092</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1719683814092</updated>
+    </task>
+    <task id="LOCAL-00039" summary="feat: add tests">
+      <option name="closed" value="true" />
+      <created>1720445515458</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1720445515458</updated>
+    </task>
+    <task id="LOCAL-00040" summary="fix: deploy">
+      <option name="closed" value="true" />
+      <created>1720445618657</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1720445618657</updated>
+    </task>
+    <task id="LOCAL-00041" summary="feat: add in backend daily summary, with withdrawal">
+      <option name="closed" value="true" />
+      <created>1720451262896</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1720451262896</updated>
+    </task>
+    <task id="LOCAL-00042" summary="feat: add in backend daily summary, with withdrawal">
+      <option name="closed" value="true" />
+      <created>1720451417740</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1720451417740</updated>
+    </task>
+    <task id="LOCAL-00043" summary="fix: move delete category logic to view">
+      <option name="closed" value="true" />
+      <created>1720554827866</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1720554827866</updated>
+    </task>
+    <task id="LOCAL-00044" summary="fix: deploy">
+      <option name="closed" value="true" />
+      <created>1720554915386</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1720554915386</updated>
+    </task>
+    <task id="LOCAL-00045" summary="refactor: add soft delte to product model">
+      <option name="closed" value="true" />
+      <created>1720556635407</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1720556635407</updated>
+    </task>
+    <task id="LOCAL-00046" summary="refactor">
+      <option name="closed" value="true" />
+      <created>1720563949232</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1720563949232</updated>
+    </task>
+    <task id="LOCAL-00047" summary="feat: add tests for invoice">
+      <option name="closed" value="true" />
+      <created>1720641412060</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1720641412060</updated>
+    </task>
+    <task id="LOCAL-00048" summary="feat: add tests for invoice">
+      <option name="closed" value="true" />
+      <created>1720641555983</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1720641555983</updated>
+    </task>
+    <task id="LOCAL-00049" summary="feat: add tests for invoice">
+      <option name="closed" value="true" />
+      <created>1720642709208</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1720642709208</updated>
+    </task>
+    <task id="LOCAL-00050" summary="fix: deploy">
+      <option name="closed" value="true" />
+      <created>1720644548658</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1720644548659</updated>
+    </task>
+    <task id="LOCAL-00051" summary="fix: validation of invoice">
+      <option name="closed" value="true" />
+      <created>1720715421759</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1720715421759</updated>
+    </task>
+    <task id="LOCAL-00052" summary="fix: deploy">
+      <option name="closed" value="true" />
+      <created>1720715654441</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1720715654441</updated>
+    </task>
+    <task id="LOCAL-00053" summary="fix: remove entrypoint">
+      <option name="closed" value="true" />
+      <created>1720815634948</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1720815634948</updated>
+    </task>
+    <task id="LOCAL-00054" summary="fix: update swagger documentation">
+      <option name="closed" value="true" />
+      <created>1720865234984</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1720865234984</updated>
+    </task>
+    <task id="LOCAL-00055" summary="fix: delete migrations file">
+      <option name="closed" value="true" />
+      <created>1721032303637</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1721032303637</updated>
+    </task>
+    <task id="LOCAL-00056" summary="fix: tests">
+      <option name="closed" value="true" />
+      <created>1721034623516</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1721034623516</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="30032ccc-1590-486b-b06b-d38226ed6326" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="30032ccc-1590-486b-b06b-d38226ed6326">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/tomasnguyen/Nguyen_Hai_Hung_2022/app/backend/authentication" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="save progress" />
+    <MESSAGE value="feat: add archive for products" />
+    <MESSAGE value="fix: flake8" />
+    <MESSAGE value="feat: add export import for vouchers" />
+    <MESSAGE value="feat: add basic support for setting" />
+    <MESSAGE value="feat: add settings" />
+    <MESSAGE value="chore: change lifetime of tokens" />
+    <MESSAGE value="chore: change to statichmethod" />
+    <MESSAGE value="fix: permissions in tests" />
+    <MESSAGE value="feat: implement tip" />
+    <MESSAGE value="feat: add endpoint for latest product stockentry" />
+    <MESSAGE value="feat: add tests for latest stockjentry" />
+    <MESSAGE value="fix deploy" />
+    <MESSAGE value="feat: add tests" />
+    <MESSAGE value="feat: add in backend daily summary, with withdrawal" />
+    <MESSAGE value="fix: move delete category logic to view" />
+    <MESSAGE value="refactor: add soft delte to product model" />
+    <MESSAGE value="refactor" />
+    <MESSAGE value="feat: add tests for invoice" />
+    <MESSAGE value="fix: validation of invoice" />
+    <MESSAGE value="fix: deploy" />
+    <MESSAGE value="fix: remove entrypoint" />
+    <MESSAGE value="fix: update swagger documentation" />
+    <MESSAGE value="fix: delete migrations file" />
+    <MESSAGE value="fix: tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: tests" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/backend$Test__api_product_catalog_tests_CatalogViewSetTests_test_import_catalog_with_inactive_product.coverage" NAME="Test: api.product_catalog.tests.CatalogViewSetTests.test_import_catalog_with_inactive_product Coverage Results" MODIFIED="1719519048904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$Test__api_warehouse_tests_SupplierTests__1_.coverage" NAME="Test: api.warehouse.tests.SupplierTests (1) Coverage Results" MODIFIED="1719351602621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$Test__settings_tests_BusinessSettingsViewSetTests.coverage" NAME="Test: settings.tests.BusinessSettingsViewSetTests Coverage Results" MODIFIED="1719559106573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1721034522329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$Test__authentication_tests_UserRegistrationTestCase.coverage" NAME="Test: authentication.tests.UserRegistrationTestCase Coverage Results" MODIFIED="1720715040081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$Test__api_sales_tests_SaleViewSetTests.coverage" NAME="Test: api.sales.tests.SaleViewSetTests Coverage Results" MODIFIED="1721029451126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$0001_initial.coverage" NAME="0001_initial Coverage Results" MODIFIED="1719575556802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/settings/migrations" />
+    <SUITE FILE_PATH="coverage/backend$Test__api_daily_closure_tests_DailySummaryViewSetTests.coverage" NAME="Test: api.daily_closure.tests.DailySummaryViewSetTests Coverage Results" MODIFIED="1720451196187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$Test__api_product_catalog_tests_CategoryModelTests.coverage" NAME="Test: api.product_catalog.tests.CategoryModelTests Coverage Results" MODIFIED="1719302371960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$Test__authentication_tests_UserRegistrationTestCase__1_.coverage" NAME="Test: authentication.tests.UserRegistrationTestCase (1) Coverage Results" MODIFIED="1721033409093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$Test__api_sales_tests.coverage" NAME="Test: api.sales.tests Coverage Results" MODIFIED="1719638589208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$Test__api_sales_tests_SaleViewSetTests_test_create_sale_with_expired_voucher.coverage" NAME="Test: api.sales.tests.SaleViewSetTests.test_create_sale_with_expired_voucher Coverage Results" MODIFIED="1717400915126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$Test__settings_tests.coverage" NAME="Test: settings.tests Coverage Results" MODIFIED="1719573971409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$Test__api_sales_tests_VoucherViewSetTests.coverage" NAME="Test: api.sales.tests.VoucherViewSetTests Coverage Results" MODIFIED="1717435883788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$Test__api_sales_tests_SaleViewSetTests_test_create_sale_with_unauthenticated_user.coverage" NAME="Test: api.sales.tests.SaleViewSetTests.test_create_sale_with_unauthenticated_user Coverage Results" MODIFIED="1716814101010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$Test__api_sales_tests_SaleViewSetTests_test_create_sale_with_admin_user.coverage" NAME="Test: api.sales.tests.SaleViewSetTests.test_create_sale_with_admin_user Coverage Results" MODIFIED="1716569385997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$Test__api_warehouse_tests_SupplierTests.coverage" NAME="Test: api.warehouse.tests.SupplierTests Coverage Results" MODIFIED="1719351837535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$Test__api_sales_tests_SaleViewSetTests_test_create_sale_with_valid_data.coverage" NAME="Test: api.sales.tests.SaleViewSetTests.test_create_sale_with_valid_data Coverage Results" MODIFIED="1716814866048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$Test__api_product_catalog_tests_CatalogViewSetTests.coverage" NAME="Test: api.product_catalog.tests.CatalogViewSetTests Coverage Results" MODIFIED="1719555852792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$Test__stats_tests_SaleStatisticsViewTests.coverage" NAME="Test: stats.tests.SaleStatisticsViewTests Coverage Results" MODIFIED="1720997082358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$Test__api_product_catalog_tests.coverage" NAME="Test: api.product_catalog.tests Coverage Results" MODIFIED="1719650180569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$Test__api_invoices_tests_InvoiceViewSetTests.coverage" NAME="Test: api.invoices.tests.InvoiceViewSetTests Coverage Results" MODIFIED="1720715177181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$Test__api_warehouse_tests.coverage" NAME="Test: api.warehouse.tests Coverage Results" MODIFIED="1719591486998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/backend$Test__api_product_catalog_tests_CategoryModelTests__1_.coverage" NAME="Test: api.product_catalog.tests.CategoryModelTests (1) Coverage Results" MODIFIED="1720556307373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>

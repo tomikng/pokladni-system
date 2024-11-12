@@ -1,0 +1,52 @@
+// eslint-disable-next-line import/no-anonymous-default-export
+export default {
+  login: {
+    loginTitle: "Đăng nhập",
+    signInCredentials: "Vui lòng đăng nhập bằng thông tin xác thực của bạn",
+    requiredUsername: "Vui lòng nhập tên đăng nhập của bạn",
+    requiredPassword: "Vui lòng nhập mật khẩu của bạn",
+    usernamePlaceholder: "Tên đăng nhập",
+    passwordPlaceholder: "Mật khẩu",
+    loginButton: "Đăng nhập",
+  },
+  layout: {
+    logOut: "Đăng xuất",
+    homepage: "Trang chủ",
+    home: "Trang chính",
+    cashRegister: "Máy tính tiền",
+    transactionHistory: "Lịch sử giao dịch",
+    inventory: "Kho hàng",
+    import: "Nhập hàng",
+    catalog: "Danh mục sản phẩm",
+    list: "Danh sách",
+    add: "Thêm",
+    history: "Lịch sử",
+    suppliers: "Nhà cung cấp",
+    administration: "Quản trị",
+    statistics: "Thống kê",
+    sales: "Bán hàng",
+    endOfDayReport: "Báo cáo cuối ngày",
+    userManagement: "Quản lý người dùng",
+    settings: "Cài đặt",
+  },
+  catalogAdd: {
+    catalogTitle: "Thêm Mục",
+    addProduct: "Thêm Sản Phẩm",
+    addLaterProduct: "Thêm Sản Phẩm Từ Danh Sách Thêm Sau",
+    addCategory: "Thêm Danh Mục",
+  },
+  categoryForm: {
+    title: "Tạo danh mục",
+    categoryName: "Tên danh mục",
+    parentCategory: "Danh mục cha",
+    createButton: "Tạo danh mục",
+    messages: {
+      success: "Tạo danh mục thành công",
+      error: "Không thể tạo danh mục",
+      nameRequired: "Vui lòng nhập tên danh mục",
+    },
+  },
+  welcome: {
+    welcome_message: "Chào mừng đến với Ứng dụng của chúng tôi",
+  },
+};

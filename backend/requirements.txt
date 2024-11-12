@@ -1,0 +1,16 @@
+django
+djangorestframework
+psycopg2-binary
+python-decouple
+pillow
+djangorestframework-simplejwt
+django-filter
+drf-yasg
+django-cors-headers
+dj_database_url
+setuptools
+black
+dj-config-url
+gunicorn
+flake8
+django-extensions

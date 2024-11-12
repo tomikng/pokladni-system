@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c081ecf-d582-489e-974d-d2b395760c0c" name="Changes" comment="fix: verifying token in middleware" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2gsxTT6xOz5f6GlSnny9i7crkRk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/tomasnguyen/Nguyen_Hai_Hung_2022/app/next-ui&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/tomasnguyen/Nguyen_Hai_Hung_2022/app/next-ui/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/tomasnguyen/Nguyen_Hai_Hung_2022/app/next-ui/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql_aurora_aws&quot;,
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/components/modals/voucher" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v21.7.3/bin/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c081ecf-d582-489e-974d-d2b395760c0c" name="Changes" comment="" />
+      <created>1716500094941</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716500094941</updated>
+      <workItem from="1716500096095" duration="816000" />
+      <workItem from="1716532406234" duration="27000" />
+      <workItem from="1716568894107" duration="31000" />
+      <workItem from="1716568929534" duration="267000" />
+      <workItem from="1717429047323" duration="2546000" />
+      <workItem from="1717431604333" duration="28687000" />
+      <workItem from="1718520811026" duration="21426000" />
+      <workItem from="1718720174219" duration="16193000" />
+      <workItem from="1719058328477" duration="2551000" />
+      <workItem from="1719266529049" duration="24200000" />
+      <workItem from="1719382893305" duration="4712000" />
+      <workItem from="1719468712026" duration="3929000" />
+      <workItem from="1719554607948" duration="29508000" />
+      <workItem from="1719638454425" duration="36089000" />
+      <workItem from="1719692117961" duration="14772000" />
+      <workItem from="1720433294423" duration="25308000" />
+      <workItem from="1720600645526" duration="7005000" />
+      <workItem from="1720696831474" duration="1060000" />
+      <workItem from="1720714614574" duration="12463000" />
+      <workItem from="1720855859969" duration="7799000" />
+      <workItem from="1721029898283" duration="2628000" />
+    </task>
+    <task id="LOCAL-00048" summary="feat: add modal summary after payment">
+      <option name="closed" value="true" />
+      <created>1719616653834</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1719616653834</updated>
+    </task>
+    <task id="LOCAL-00049" summary="fix: handling None inventory count">
+      <option name="closed" value="true" />
+      <created>1719616682827</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1719616682827</updated>
+    </task>
+    <task id="LOCAL-00050" summary="feat: handling expiredrefreshtoken">
+      <option name="closed" value="true" />
+      <created>1719617215187</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1719617215188</updated>
+    </task>
+    <task id="LOCAL-00051" summary="feat: handling expiredrefreshtoken">
+      <option name="closed" value="true" />
+      <created>1719617236401</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1719617236401</updated>
+    </task>
+    <task id="LOCAL-00052" summary="fix: production login">
+      <option name="closed" value="true" />
+      <created>1719639400620</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1719639400620</updated>
+    </task>
+    <task id="LOCAL-00053" summary="fix: baseurl">
+      <option name="closed" value="true" />
+      <created>1719640252077</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1719640252077</updated>
+    </task>
+    <task id="LOCAL-00054" summary="chore: cleanup code">
+      <option name="closed" value="true" />
+      <created>1719644205455</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1719644205455</updated>
+    </task>
+    <task id="LOCAL-00055" summary="chore: cleanup code">
+      <option name="closed" value="true" />
+      <created>1719644245317</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1719644245317</updated>
+    </task>
+    <task id="LOCAL-00056" summary="fix: page size">
+      <option name="closed" value="true" />
+      <created>1719644605385</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1719644605385</updated>
+    </task>
+    <task id="LOCAL-00057" summary="feat: add ui for latest stockentry">
+      <option name="closed" value="true" />
+      <created>1719648740680</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1719648740680</updated>
+    </task>
+    <task id="LOCAL-00058" summary="feat: add basic printing of receipt">
+      <option name="closed" value="true" />
+      <created>1719664422942</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1719664422942</updated>
+    </task>
+    <task id="LOCAL-00059" summary="feat: add design to receipt plus fix minor bugs for printing">
+      <option name="closed" value="true" />
+      <created>1719668459184</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1719668459184</updated>
+    </task>
+    <task id="LOCAL-00060" summary="fix: layout of cashregister">
+      <option name="closed" value="true" />
+      <created>1719670039087</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1719670039087</updated>
+    </task>
+    <task id="LOCAL-00061" summary="fix: layout of cashregister">
+      <option name="closed" value="true" />
+      <created>1719670074654</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1719670074655</updated>
+    </task>
+    <task id="LOCAL-00062" summary="chore: cleanup">
+      <option name="closed" value="true" />
+      <created>1719670236229</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1719670236229</updated>
+    </task>
+    <task id="LOCAL-00063" summary="fix: reaarange the cash register layout">
+      <option name="closed" value="true" />
+      <created>1719670736191</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1719670736191</updated>
+    </task>
+    <task id="LOCAL-00064" summary="fix: reaarange the cash register layout">
+      <option name="closed" value="true" />
+      <created>1719670825746</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1719670825746</updated>
+    </task>
+    <task id="LOCAL-00065" summary="chore: add divider">
+      <option name="closed" value="true" />
+      <created>1719671359078</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1719671359078</updated>
+    </task>
+    <task id="LOCAL-00066" summary="refactore: layout of menubar">
+      <option name="closed" value="true" />
+      <created>1719671455476</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1719671455476</updated>
+    </task>
+    <task id="LOCAL-00067" summary="refactor: layout of menubar">
+      <option name="closed" value="true" />
+      <created>1719672082167</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1719672082168</updated>
+    </task>
+    <task id="LOCAL-00068" summary="feat: add refresh and verification to config">
+      <option name="closed" value="true" />
+      <created>1719672320226</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1719672320226</updated>
+    </task>
+    <task id="LOCAL-00069" summary="feat: add refresh and verification to config">
+      <option name="closed" value="true" />
+      <created>1719672353090</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1719672353091</updated>
+    </task>
+    <task id="LOCAL-00070" summary="feat: add statistics">
+      <option name="closed" value="true" />
+      <created>1719683154787</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1719683154787</updated>
+    </task>
+    <task id="LOCAL-00071" summary="feat: add warehouse">
+      <option name="closed" value="true" />
+      <created>1719693659882</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1719693659882</updated>
+    </task>
+    <task id="LOCAL-00072" summary="feat: add warehouse">
+      <option name="closed" value="true" />
+      <created>1719693722675</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1719693722675</updated>
+    </task>
+    <task id="LOCAL-00073" summary="feat: add inventory function">
+      <option name="closed" value="true" />
+      <created>1719695827904</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1719695827904</updated>
+    </task>
+    <task id="LOCAL-00074" summary="chore: cleanup">
+      <option name="closed" value="true" />
+      <created>1719703371245</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1719703371245</updated>
+    </task>
+    <task id="LOCAL-00075" summary="chore: cleanup">
+      <option name="closed" value="true" />
+      <created>1719703448174</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1719703448174</updated>
+    </task>
+    <task id="LOCAL-00076" summary="feat: add printing receipt from history">
+      <option name="closed" value="true" />
+      <created>1719705535648</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1719705535648</updated>
+    </task>
+    <task id="LOCAL-00077" summary="feat: add printing receipt from history">
+      <option name="closed" value="true" />
+      <created>1719705973109</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1719705973109</updated>
+    </task>
+    <task id="LOCAL-00078" summary="feat: add printing for product detail">
+      <option name="closed" value="true" />
+      <created>1719706684640</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1719706684640</updated>
+    </task>
+    <task id="LOCAL-00079" summary="chore: typos">
+      <option name="closed" value="true" />
+      <created>1719707057342</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1719707057342</updated>
+    </task>
+    <task id="LOCAL-00080" summary="fix: auth">
+      <option name="closed" value="true" />
+      <created>1719815552884</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1719815552885</updated>
+    </task>
+    <task id="LOCAL-00081" summary="feat: move product statistics to warehouse statistics">
+      <option name="closed" value="true" />
+      <created>1720444114096</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1720444114097</updated>
+    </task>
+    <task id="LOCAL-00082" summary="chore: removed unused states">
+      <option name="closed" value="true" />
+      <created>1720444298369</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1720444298369</updated>
+    </task>
+    <task id="LOCAL-00083" summary="feat: add daily summaries">
+      <option name="closed" value="true" />
+      <created>1720507018476</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1720507018476</updated>
+    </task>
+    <task id="LOCAL-00084" summary="feat: add withdrawal">
+      <option name="closed" value="true" />
+      <created>1720522553435</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1720522553435</updated>
+    </task>
+    <task id="LOCAL-00085" summary="feat: add withdrawal">
+      <option name="closed" value="true" />
+      <created>1720523477561</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1720523477561</updated>
+    </task>
+    <task id="LOCAL-00086" summary="fix: multiplier">
+      <option name="closed" value="true" />
+      <created>1720601749850</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1720601749850</updated>
+    </task>
+    <task id="LOCAL-00087" summary="fix: type error in multiplier">
+      <option name="closed" value="true" />
+      <created>1720602342969</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1720602342969</updated>
+    </task>
+    <task id="LOCAL-00088" summary="feat: add saving unfinished invoices">
+      <option name="closed" value="true" />
+      <created>1720715383292</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1720715383292</updated>
+    </task>
+    <task id="LOCAL-00089" summary="feat: add initial settings">
+      <option name="closed" value="true" />
+      <created>1720858194255</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1720858194255</updated>
+    </task>
+    <task id="LOCAL-00090" summary="fix: statistics profit infinite loading">
+      <option name="closed" value="true" />
+      <created>1720858564136</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1720858564136</updated>
+    </task>
+    <task id="LOCAL-00091" summary="fix: production url check settings in middleware">
+      <option name="closed" value="true" />
+      <created>1720858949424</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1720858949424</updated>
+    </task>
+    <task id="LOCAL-00092" summary="fix: production url check settings in middleware">
+      <option name="closed" value="true" />
+      <created>1720859152961</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1720859152961</updated>
+    </task>
+    <task id="LOCAL-00093" summary="fix: creating settings">
+      <option name="closed" value="true" />
+      <created>1720862131205</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1720862131205</updated>
+    </task>
+    <task id="LOCAL-00094" summary="fix: initial settings must be logged">
+      <option name="closed" value="true" />
+      <created>1720998222286</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1720998222286</updated>
+    </task>
+    <task id="LOCAL-00095" summary="fix: verifying token in middleware">
+      <option name="closed" value="true" />
+      <created>1720998693038</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1720998693038</updated>
+    </task>
+    <task id="LOCAL-00096" summary="fix: verifying token in middleware">
+      <option name="closed" value="true" />
+      <created>1721031241015</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1721031241015</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="GitHub.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore: add divider" />
+    <MESSAGE value="refactore: layout of menubar" />
+    <MESSAGE value="refactor: layout of menubar" />
+    <MESSAGE value="feat: add refresh and verification to config" />
+    <MESSAGE value="feat: add statistics" />
+    <MESSAGE value="feat: add warehouse" />
+    <MESSAGE value="feat: add inventory function" />
+    <MESSAGE value="chore: cleanup" />
+    <MESSAGE value="feat: add printing receipt from history" />
+    <MESSAGE value="feat: add printing for product detail" />
+    <MESSAGE value="chore: typos" />
+    <MESSAGE value="fix: auth" />
+    <MESSAGE value="feat: move product statistics to warehouse statistics" />
+    <MESSAGE value="chore: removed unused states" />
+    <MESSAGE value="feat: add daily summaries" />
+    <MESSAGE value="feat: add withdrawal" />
+    <MESSAGE value="fix: multiplier" />
+    <MESSAGE value="fix: type error in multiplier" />
+    <MESSAGE value="feat: add saving unfinished invoices" />
+    <MESSAGE value="feat: add initial settings" />
+    <MESSAGE value="fix: statistics profit infinite loading" />
+    <MESSAGE value="fix: production url check settings in middleware" />
+    <MESSAGE value="fix: creating settings" />
+    <MESSAGE value="fix: initial settings must be logged" />
+    <MESSAGE value="fix: verifying token in middleware" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: verifying token in middleware" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/components/modals/cash-register/EditProductModal.tsx</url>
+          <line>248</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
